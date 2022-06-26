@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="5sp">
+            android:layout_marginTop="15sp">
 
             <TextView
                 android:id="@+id/txtv_searchTitle"
@@ -110,7 +110,7 @@
                 android:textColor="#DDFFFBFB"
                 android:textSize="16sp"
                 android:padding="16sp"/>
-
+            
         </LinearLayout>
 
     </LinearLayout>

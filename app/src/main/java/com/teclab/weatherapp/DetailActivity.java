@@ -43,7 +43,7 @@ public class DetailActivity extends AppCompatActivity {
         getWeather(tvCiudadDetail.getText().toString().trim());
 
     }
-
+    //TODO DESACTIVE EL API KEY DESDE OPENWEATHER PORQUE LO SUBI A GITHUB
     public void getWeather (String v){
         WeatherAPI miAPI = APIClient.getAPIClient().create(WeatherAPI.class);
         //URL = "https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}&units{metric}&lang{sp}";
