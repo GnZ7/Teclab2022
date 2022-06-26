@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             findViewById(R.id.loaderM).setVisibility(View.GONE);
         }
     }
-    //TODO PONERLE UN LOADER PARA VER CUANDO ESTA PENSANDO
+
     private void updateLocation() {
         LocationManager locationManager = (LocationManager)MainActivity.this.getSystemService(Context.LOCATION_SERVICE);
 
