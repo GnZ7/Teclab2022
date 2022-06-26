@@ -46,8 +46,8 @@ public class DetailActivity extends AppCompatActivity {
 
     public void getWeather (String v){
         WeatherAPI miAPI = APIClient.getAPIClient().create(WeatherAPI.class);
-        //URL = "https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}&units{metric}&lang{sp}";
-        String api_key = "816e0f1d8c168ac4be0dbbfa546b100f";
+
+        String api_key = "{API KEY}"; //TODO Ingresar una API KEY
         String metric = "metric";
         String spa = "sp";
         Call<MiTiempo> miTiempoCall =  miAPI.getweather(tvCiudadDetail.getText().toString().trim(),
