@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private String inputCiudad;
     private String ubicacionGPS;
 
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
