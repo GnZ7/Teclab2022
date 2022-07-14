@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="welcome">Bienvenido a la Aplicación del Clima </string>
+    <string name="weather_now">Pronóstico actual \n en mi ubicación</string>
+    <string name="cities_list">Listado de Ciudades</string>
+    <string name="ciudad_actual">Ciudad actual</string>
+    <string name="estado">Estado</string>
+    <string name="_9_c">9°C</string>
+    <string name="viento">Viento</string>
+    <string name="_06_40_am">06:40 AM</string>
+    <string name="utc">UTC</string>
+    <string name="_06_40_pm">06:40 PM</string>
+    <string name="percent">%</string>
+    <string name="hpa">hPa</string>
+    <string name="icono">icono</string>
+    <string name="m_s">m/s</string>
+    <string name="amanecer">Amanecer</string>
+    <string name="presion">Presión</string>
+    <string name="crep_sculo">Crepúsculo</string>
+    <string name="humedad">Humedad</string>
+    <string name="s_t">S.T:</string>
+    <string name="busc_una_cuidad">Buscá una cuidad</string>
+    <string name="eT_city_hint">Ej.: New York, US</string>
+</resources>
