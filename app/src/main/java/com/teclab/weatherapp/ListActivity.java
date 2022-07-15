@@ -3,6 +3,7 @@ package com.teclab.weatherapp;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -10,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import java.util.Arrays;
 
@@ -25,6 +27,11 @@ public class ListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
+        ConstraintLayout constraintLayout = findViewById(R.id.constraint_layout1);
+        AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
+        animationDrawable.setEnterFadeDuration(100);
+        animationDrawable.setExitFadeDuration(5000);
+        animationDrawable.start();
 
         SharedPreferences sharedPrefs = getSharedPreferences("sharedPreferences", Context.MODE_PRIVATE);
         //Recuperar las ciudades guardadas y, si no son null y no están en el array (para no repetir), agregarlas al listado
