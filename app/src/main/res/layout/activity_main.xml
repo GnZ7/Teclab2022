@@ -8,7 +8,7 @@
     android:background="@drawable/background_gradient_list"
     android:orientation="vertical"
     android:padding="25dp"
-    tools:context=".MainActivity">
+    tools:context=".views.MainActivity">
 
     <LinearLayout
         android:id="@+id/mainContainer"
